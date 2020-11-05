@@ -1,0 +1,62 @@
+*   {                                               /* Esto cambia el colo de todas las páginas*/
+    background-color: #C8C8C8;
+}
+h1, h2  {                               	        /*Color y fuente de los títulos*/
+    color: #514D4A;
+    font-family: arial;
+}
+
+h2  {                                               /*Borde y márgenes para el segundo título*/
+    border: 4px solid;
+    margin-right:800px;
+    margin-left:800px;
+}
+
+.botones    {                                       /*fuente, color y desaparición del decorado de los botones*/
+    font-family: arial;                            
+    color: brown;
+    text-decoration: none;
+}
+
+img  {                                              /*Bordes de las imágenes*/
+    border: 5px solid;
+    border-color: grey;
+    border-radius: 25px;
+}
+
+#portada    {
+    width: 500px;
+}
+
+ol  {                                               /*Bordes y espaciado de las listas ordenadas*/
+    border: 3px solid;
+    border-color: grey;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+ul li  {                                            /*Negrita y fondo de las listas desordenadas*/
+    font-weight: bold;
+    background-color: coral;
+}
+
+article   {                                         /*Color de fondo para los artículos*/
+    background-color: blue;
+}
+
+div {                                               /*Disposición de la caja*/
+    color: green;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 15px;
+    width: 50%;
+
+}
+
+a:hover {                                           /*Cambio de color al pasar el raton por encima de un enlace*/
+    background-color: grey;
+  }
+
+table {                                             /*Borde de las tablas*/
+    border-collapse: collapse;
+    }
